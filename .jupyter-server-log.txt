@@ -663,3 +663,51 @@ TermSocket.open: Opened 1
       "Connection": "close"
     }
 [E 10:16:36.612 NotebookApp] 500 PUT /user/paulinelvne-representation_de-dt38mmx5/api/contents/Essai_representation_DE.ipynb?1631355397993 (78.193.170.244) 12.380000ms referer=https://hub.gke2.mybinder.org/user/paulinelvne-representation_de-dt38mmx5/lab/tree/Essai_representation_DE.ipynb
+[I 10:18:03.440 NotebookApp] Saving file at /Reservation.ipynb
+[E 10:18:03.451 NotebookApp] Error while saving file: Reservation.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.4.schema.json'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 270, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 303, in iter_validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 57, in get_validator
+        version = current_nbformat
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 94, in _get_schema_json
+        def _get_schema_json(v):
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.4.schema.json'
+[W 10:18:03.452 NotebookApp] 500 PUT /user/paulinelvne-representation_de-dt38mmx5/api/contents/Reservation.ipynb?1631355484796 (78.193.170.244): Unexpected error while saving file: Reservation.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.4.schema.json'
+[W 10:18:03.452 NotebookApp] Unexpected error while saving file: Reservation.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.4.schema.json'
+[E 10:18:03.452 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1631355483|30:username-hub-gke2-mybinder-org|44:NWJmMjViMzZiYThhNDJjYWI4NmYxYTMyMDFiZTgyNzA=|4b2e559d5649e78b0ce61dd84a44fa9208956a8ea234920260718b9b776cc076\"; _xsrf=2|e84eadb5|cb4cc8835d2c3f4f3ed959a7e6e865b0|1631354088",
+      "Cache-Control": "no-cache",
+      "Pragma": "no-cache",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Xsrftoken": "2|e84eadb5|cb4cc8835d2c3f4f3ed959a7e6e865b0|1631354088",
+      "Authorization": "token ZMLCLidjQLitjwPKm0ij4A",
+      "Content-Type": "text/plain;charset=UTF-8",
+      "Referer": "https://hub.gke2.mybinder.org/user/paulinelvne-representation_de-dt38mmx5/lab",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+      "Accept": "*/*",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0",
+      "Content-Length": "1683",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "78.193.170.244,::ffff:10.0.26.178",
+      "X-Real-Ip": "78.193.170.244",
+      "X-Request-Id": "f86d5d1832c4c10b28acdb1da775a1e2",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 10:18:03.453 NotebookApp] 500 PUT /user/paulinelvne-representation_de-dt38mmx5/api/contents/Reservation.ipynb?1631355484796 (78.193.170.244) 13.550000ms referer=https://hub.gke2.mybinder.org/user/paulinelvne-representation_de-dt38mmx5/lab
