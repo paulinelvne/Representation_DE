@@ -711,3 +711,46 @@ TermSocket.open: Opened 1
       "Connection": "close"
     }
 [E 10:18:03.453 NotebookApp] 500 PUT /user/paulinelvne-representation_de-dt38mmx5/api/contents/Reservation.ipynb?1631355484796 (78.193.170.244) 13.550000ms referer=https://hub.gke2.mybinder.org/user/paulinelvne-representation_de-dt38mmx5/lab
+[W 2021-09-11 10:37:16.351 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.351 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-11 10:37:16.351 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-11 10:37:16.351 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.352 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-11 10:37:16.352 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-09-11 10:37:16.356 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-09-11 10:37:16.356 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 10:37:16.364 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 10:37:16.366 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 10:37:16.367 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 10:37:16.367 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 10:37:16.367 NotebookApp] http://jupyter-paulinelvne-2drepresentation-5fde-2dvmersdez:8888/user/paulinelvne-representation_de-vmersdez/?token=...
+[I 10:37:16.367 NotebookApp]  or http://127.0.0.1:8888/user/paulinelvne-representation_de-vmersdez/?token=...
+[I 10:37:16.367 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:37:16.370 NotebookApp] No web browser found: could not locate runnable browser.
+[I 10:37:16.372 NotebookApp] 302 GET /user/paulinelvne-representation_de-vmersdez/ (10.0.21.16) 0.960000ms
+[I 10:37:17.673 NotebookApp] 302 GET /user/paulinelvne-representation_de-vmersdez/?token=ynzU2l7qQ4mckrbaagSuUA (78.193.170.244) 0.640000ms
+[I 10:37:18.799 NotebookApp] 301 GET /user/paulinelvne-representation_de-vmersdez/static/favicons/favicon.ico (78.193.170.244) 0.610000ms
+[I 2021-09-11 10:37:22.750 LabApp] Build is up to date
+[W 10:37:24.341 NotebookApp] 404 GET /user/paulinelvne-representation_de-vmersdez/terminals/websocket/1 (78.193.170.244) 35.690000ms referer=None
+[W 10:37:24.579 NotebookApp] Notebook Reservation.ipynb is not trusted
+[I 10:37:25.620 NotebookApp] Kernel started: dfd39899-9036-4848-bfb4-03ef6639dbf3, name: python3
+[I 10:37:25.620 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 10:37:25.620 NotebookApp] Culling kernels even with connected clients
+[I 10:37:26.519 NotebookApp] Starting buffering for dfd39899-9036-4848-bfb4-03ef6639dbf3:134d3ba2-fdc3-47c3-b70e-701dc89b8109
+[I 10:37:35.348 NotebookApp] Saving file at /Reservation.ipynb
+[I 10:37:41.495 NotebookApp] Kernel shutdown: dfd39899-9036-4848-bfb4-03ef6639dbf3
+[W 10:37:42.090 NotebookApp] delete /Reservation.ipynb
+[W 10:37:45.694 NotebookApp] delete /Reservation.html
+[I 10:37:50.855 NotebookApp] Uploading file to /Reservation.ipynb
+[W 10:37:53.050 NotebookApp] Notebook Reservation.ipynb is not trusted
+[I 10:37:53.842 NotebookApp] Kernel started: d065c840-1a9e-489c-b84c-88913223dfc3, name: python3
+[I 10:38:01.541 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
